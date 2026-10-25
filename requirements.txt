@@ -1,0 +1,5 @@
+playwright
+google-genai
+google-api-python-client
+google-auth
+requests

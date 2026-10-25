@@ -1,0 +1,16 @@
+# 敏感凭据与私钥 (绝对严禁上传)
+.env
+data/service_account.json
+
+# 运行缓存与数据
+data/state.json
+data/events.json
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
