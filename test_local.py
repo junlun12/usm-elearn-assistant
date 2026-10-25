@@ -12,7 +12,7 @@ USM_USERNAME = os.environ.get("USM_USERNAME")
 USM_PASSWORD = os.environ.get("USM_PASSWORD")
 
 if not USM_USERNAME:
-    USM_USERNAME = input("请输入你的 USM 学生邮箱 (例如 teejunlun@student.usm.my): ").strip()
+    USM_USERNAME = input("请输入你的 USM 学生邮箱 (例如 XXXX@student.usm.my): ").strip()
 if not USM_PASSWORD:
     import getpass
     USM_PASSWORD = getpass.getpass("请输入你的 USM 登录密码 (输入时不显示字符): ").strip()
